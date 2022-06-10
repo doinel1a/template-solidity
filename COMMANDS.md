@@ -1,10 +1,23 @@
-# HARDHAT COMMANDS
+# HARDHAT BASIC COMMANDS
 ```
-node scripts/sample-script.js
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
+## RUN LOCAL BLOCKCHAIN NODES
 npx hardhat node
+
+## COMPILE ALL THE CONTRACTS
+npx hardhat compile
+
+## RUN TEST SCRIPTS FROM ./test FOLDER
+npx hardhat test
+
+## OPENS A HARDHAT CONSOLE
+npx hardhat console --network NETWORK
+
+## RUN A SPECIFIC SCRIPT (USUALLY DEPLOY SCRITPS) ON A SPECIFIC NETWORK
+npx hardhat run --network NETWORK SCRIPTS_FOLDER/SCRIPT_NAME.js 
+
+## CLEAN FILES (DELETE ARTIFACTS FOLDER & CACHE)
+npx hardhat clean
+
+## SHOWS HARDHAT COMANDS & OPTIONS
 npx hardhat help
 ```
