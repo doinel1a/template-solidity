@@ -37,7 +37,7 @@ npx hardhat console --network localhost
 
 ## GET ETHERS.JS CONTRACT FACTORY
 const CONTRACT_NAME= await ethers.getContractFactory("CONTRACT_NAME")
-const contract_name = await CONTRACT_NAME.attact("0x123-CONTRACT_ADDRESS")
+const contract_name = await CONTRACT_NAME.attach("0x123-CONTRACT_ADDRESS")
 
 ## INTERACT WITH THE CONTRACT METHODS
 ```
