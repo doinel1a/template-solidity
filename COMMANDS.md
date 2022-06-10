@@ -21,3 +21,23 @@ npx hardhat clean
 ## SHOWS HARDHAT COMANDS & OPTIONS
 npx hardhat help
 ```
+
+# LOCAHOST HARDHAT CONTRACT INTERACTION
+```
+## RUN LOCAL BLOCKCHAIN NODES
+npx hardhat node
+
+## DEPLOY SMARTCONTRACT/S TO LOCALHOST NETWORK
+npx hardhat run --network localhost SCRIPTS_FOLDER/SCRIPT_NAME.js 
+
+## COPY THE DEPLOYED CONTRACT ADDRESS
+
+## OPEN A HARDHAT CONSOLE IN LOCAHOST
+npx hardhat console --network localhost
+
+## GET ETHERS.JS CONTRACT FACTORY
+const CONTRACT_NAME= await ethers.getContractFactory("CONTRACT_NAME")
+const contract_name = await CONTRACT_NAME.attact("0x123-CONTRACT_ADDRESS")
+
+## INTERACT WITH THE CONTRACT METHODS
+```
