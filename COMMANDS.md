@@ -22,7 +22,7 @@ npx hardhat clean
 npx hardhat help
 ```
 
-# LOCAHOST HARDHAT CONTRACT INTERACTION
+# LOCALHOST HARDHAT CONTRACT INTERACTION
 ```
 ## RUN LOCAL BLOCKCHAIN NODES
 npx hardhat node
